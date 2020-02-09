@@ -95,38 +95,51 @@ hr {
   margin: 60px 0;
 }
 
+.skill-color {
+    display: block;
+    background-color: #F1FCFC;
+}
+
 .skill-row h3 {
-  min-height: 90px;
-  padding: 5% 5% 0 20%;
-  text-align: left;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .skill-row {
-  width: 25%;
-  margin: 75px auto 20px auto;
+  width: 23%;
+  margin: 50px auto;
   text-align: left;
+}
+
+.main-li {
+  list-style-type: disc;
 }
 
 .skill-row ul {
   list-style-type: circle;
   line-height: 2;
+  width: 80%;
+  margin: auto;
+  text-align: left;
 }
 
-.img-hdip, .img-github {
-  width: 15%;
-  float: left;
-  margin-right: 5%;
+.skill-row li {
+  line-height: 2;
 }
 
-.img-elearning {
-  width: 15%;
-  float: right;
-  margin-left: 0;
+
+
+.img-hdip, .img-github, .img-elearning{
+  display: block;
+  width: 20%;
+  margin: auto;
 }
 
 .udemy-cert {
-  width: 14%;
-  margin: 30px auto;
+  display: block;
+  width: 100%;
+  margin: auto;
+
 }
 
 .git-link {
@@ -136,11 +149,10 @@ hr {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   display: block;
-  text-align: left;
-  padding-left: 20%;
-  padding-bottom: 20px;
-  width: 70%;
+  text-align: center;
+  width: 99%;
   margin: auto;
+  line-height: 3;
 }
 
 .git-link:hover {
@@ -237,7 +249,7 @@ hr {
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   h3{
@@ -245,7 +257,7 @@ hr {
   }
 
   p{
-    font-size: 1.5rem;
+    font-size: 0.8rem;
   }
 
   .profile h2{
@@ -253,19 +265,39 @@ hr {
   }
 
   .img-profile {
-    width: 30%;
+    width: 32%;
   }
 
   .intro{
-    width: 75%;
+    width: 80%;
+    padding: 20px;
   }
 
   .skill-row {
-    width: 75%;
+    width: 90%;
   }
 
-  .skill-row ul, li {
-    font-size: 1.5rem;
+  .skill-row ul{
+    font-size: 1.2rem;
+    width: 75%;
+    text-align: left;
+  }
+
+  .skill-row h3 {
+    min-height: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .img-hdip, .img-github, .img-elearning {
+    float: none;
+    width: 15%;
+    display: block;
+    margin: 75px auto 75px auto;
+    text-align: center;
+
   }
 
   .contact-me {
@@ -274,22 +306,32 @@ hr {
   }
 
   .contact-me p{
-    font-size: 1.5rem;
+    font-size: 0.8rem;
   }
 
   .udemy-cert {
-    width: 35%;
+    display: block;
+    width: 80%;
+    margin: 50px auto 50px auto;
+  }
+
+  .btn {
+    font-size: 3rem;
+  }
+
+  .btn:hover {
+      font-size: 3rem;
   }
 
   .copyright {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .icon-att {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .icon-att a {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
