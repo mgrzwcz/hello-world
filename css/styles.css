@@ -94,7 +94,7 @@ hr {
 
 .intro {
   margin: auto;
-  width: 30%;
+  width: 40%;
   text-align: left;
 }
 
@@ -105,6 +105,12 @@ hr {
 .skill-row h3 {
   min-height: 90px;
   padding: 5% 5% 0 20%;
+  text-align: left;
+}
+
+.skill-row {
+  width: 40%;
+  margin: 75px auto 20px auto;
   text-align: left;
 }
 
@@ -128,12 +134,6 @@ hr {
 .udemy-cert {
   width: 20%;
   margin: 30px auto;
-}
-
-.skill-row {
-  width: 30%;
-  margin: 75px auto 20px auto;
-  text-align: left;
 }
 
 .bottom-container {
@@ -199,4 +199,47 @@ hr {
   background-image: -webkit-linear-gradient(0deg, #2bc4ad, #30e3cb);
   background-image: linear-gradient(0deg, #2bc4ad, #30e3cb);
   padding: 15px;
+}
+
+@media screen and (max-width: 767px){
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p{
+    font-size: 1.1rem;
+  }
+
+  .bottom-cloud {
+    bottom: 60px;
+  }
+
+  .img-profile {
+    width: 30%;
+  }
+
+  .intro{
+    width: 80%;
+  }
+
+  .skill-row {
+    width: 80%;
+  }
+
+  .udemy-cert {
+    width: 60%;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .icon-att {
+    font-size: 10px;
+  }
+
+  .icon-att a {
+    font-size: 10px;
+  }
 }
