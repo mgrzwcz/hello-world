@@ -40,6 +40,8 @@ a:hover {
 
 p {
   line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 hr {
@@ -116,6 +118,7 @@ hr {
 }
 
 .skill-row ul {
+  font-family: 'Montserrat', sans-serif;
   list-style-type: circle;
   line-height: 2;
   width: 80%;
@@ -124,6 +127,7 @@ hr {
 }
 
 .skill-row li {
+  font-family: 'Montserrat', sans-serif;
   line-height: 2;
 }
 
