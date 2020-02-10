@@ -269,8 +269,8 @@ hr {
   }
 
   .intro{
-    font-size: 1.1rem;
-    width: 85%;
+    font-size: 2.2rem;
+    width: 75%;
   }
 
   .skill-row {
@@ -278,7 +278,7 @@ hr {
   }
 
   .skill-row ul{
-    font-size: 1.2rem;
+    font-size: 2rem;
     width: 75%;
     text-align: left;
   }
@@ -287,7 +287,7 @@ hr {
     min-height: 0;
     margin-bottom: 50px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.6rem;
     padding: 0;
   }
 
@@ -306,13 +306,17 @@ hr {
   }
 
   .contact-me p{
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .udemy-cert {
     display: block;
     width: 80%;
     margin: 50px auto 50px auto;
+  }
+
+  .git-link {
+    font-size: 1rem;
   }
 
   .btn {
