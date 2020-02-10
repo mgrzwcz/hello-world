@@ -272,8 +272,8 @@ hr {
   }
 
   .intro{
-    font-size: 2.2rem;
-    width: 75%;
+    font-size: 2rem;
+    width: 70%
   }
 
   .skill-row {
@@ -281,8 +281,8 @@ hr {
   }
 
   .skill-row ul{
-    font-size: 2rem;
-    width: 75%;
+    font-size: 1.9rem;
+    width: 70%;
     text-align: left;
   }
 
