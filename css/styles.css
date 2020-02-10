@@ -90,7 +90,7 @@ hr {
 .intro {
   margin: auto;
   width: 25%;
-  text-align: left;
+  text-align: justify;
 }
 
 .skills h2 {
@@ -123,7 +123,7 @@ hr {
   line-height: 2;
   width: 80%;
   margin: auto;
-  text-align: left;
+  text-align: justify;
 }
 
 .skill-row li {
